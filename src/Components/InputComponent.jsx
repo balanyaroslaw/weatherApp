@@ -18,7 +18,10 @@ function InputComponent() {
         const fetchData = async()=>
         {
           await axios.get(`https://api.geoapify.com/v1/geocode/autocomplete?text=${cityInputName}&lang=uk&type=city&count=3&format=json&apiKey=${CITIES_API_KEY}`)
-          .then((response)=>{setCities(response)})
+          .then((response)=>{
+            setCities(response);
+            console.log(response.data)
+          })
         }
         if(cityInputName.length >= 1)
         {
@@ -61,7 +64,7 @@ function InputComponent() {
             cities.data!==undefined&&menuShow?cities.data.results.map((city)=>{
               return <div onClick={e=>handleClick(e, city)} key={city.place_id} value={city.place_id} className='select__items'>
                   <span className = 'select__items__content'>
-                    {city.state}-{city.city}
+                    {city.address_line2}
                   </span>
                 </div>
             }):null

@@ -51,10 +51,14 @@
     background: #dee1e2;
 }
 .select__items{
+    width: 620px;
     height: 35px;
+    display: flex;
+    flex-wrap:wrap;
+    margin-bottom: 5px;
 }
 .input__content__container__deployed{
-    width:520px;
+    width:620px;
     height: auto;
     background: #dee1e2;
     border-radius: 20px;
