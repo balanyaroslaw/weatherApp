@@ -18,6 +18,19 @@
     font-weight: 400;
     line-height: normal;
     margin-top: 8px;
+    animation-duration: 1s; 
+}
+.currentforecast__button:hover{
+    animation-name: opacityanamation;
+}
+@keyframes opacityanamation {
+    0% {opacity: 1;}
+    25% {opacity: 0.8;}
+    34% {opacity: 0.5;}
+    50% {opacity: 0.3;}
+    64% {opacity: 0.5;}
+    75% {opacity: 0.8;}
+    100% {opacity: 1;}
 }
 .weekforecast__container{
     width: 1200px;
@@ -25,7 +38,7 @@
     background-color: #292C2D;
     border-radius: 15px;
     border-color: #0000;
-    margin: 20px 0px 45px 150px;
+    margin: 20px 0px 45px 0px;
     padding-bottom: 3px;
 }
 .nextday_forecast__container{

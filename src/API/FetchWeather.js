@@ -55,7 +55,7 @@ export const FetchWeather = () => {
                                 dispatch(setTransfer(false));
                             }
                         });
-                        await axios.get(`http://api.weatherapi.com/v1/forecast.json?key=${HOURLY_FORECAST_API_KEY}&q=${location.lat},${location.lon}&days=2&aqi=no&alerts=no`)
+                        await axios.get(`https://api.weatherapi.com/v1/forecast.json?key=${HOURLY_FORECAST_API_KEY}&q=${location.lat},${location.lon}&days=2&aqi=no&alerts=no`)
                         .then(response=>{
                             if(response.data.location.country){
                                 if(isLocalUnique)

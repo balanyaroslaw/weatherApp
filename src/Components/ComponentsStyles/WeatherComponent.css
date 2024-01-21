@@ -10,7 +10,7 @@
     height: 630px;
     background-color: #57A7C9;
     border-color: #0000;
-    margin: 20px 0px 45px 150px;
+    margin: 20px 0px 45px 0px;
     display: flex;
     flex-direction: column;
 }
@@ -113,7 +113,20 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal; 
-    margin: 5px 0px 0px 3px; 
+    margin: 5px 0px 0px 3px;
+    animation-duration: 1s; 
+}
+.forecast:hover{
+    animation-name: opacityanamation;
+}
+@keyframes opacityanamation {
+    0% {opacity: 1;}
+    25% {opacity: 0.8;}
+    34% {opacity: 0.5;}
+    50% {opacity: 0.3;}
+    64% {opacity: 0.5;}
+    75% {opacity: 0.8;}
+    100% {opacity: 1;}
 }
 .menu__bar{
     margin-bottom: 5px;
