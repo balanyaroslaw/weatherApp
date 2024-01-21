@@ -1,0 +1,70 @@
+.maindata__container{
+    width: 1200px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+}
+.data__container{
+    width: 800px;
+    height: 100px;
+    margin-top: 25px;
+}
+.data__content{
+    width: 500px;
+    height: 40px;
+    margin-left: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.data{
+    color: rgba(165, 165, 165, 0.97);
+    font-family: 'Istok Web';
+    width: 40px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.value{
+    color: white;
+    width: 150px;
+}
+.hourlyforecast__container{
+    width: 1200px;
+    height: 320px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.hourlyforecast__data{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.daily{
+    max-width: 55px;
+    max-height: 55px;
+}
+.hourlyforecast__temp{
+    color: #FFF;
+    font-family: 'Istok Web';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.hourlyforecast__time__container{
+    height: 20px;
+}
+.hourlyforecast__time{
+    color: #A5A5A5;
+    font-family: 'Istok Web';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}

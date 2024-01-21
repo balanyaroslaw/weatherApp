@@ -1,0 +1,75 @@
+.input__main__container{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    margin: 20px 0px 0px 150px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.input__container{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.input__content__container{
+    width: 520px;
+}
+.input__field{
+    width:500px;
+    border-radius: 50px;
+    line-height: 1.5px;
+    font-family: 'Istok Web';
+    font-size: 17px;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: none;
+    outline: none;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    display: block;
+    height: 40px;
+    padding-left: 18px;
+    margin-top: 3px;
+}
+.input__field:hover {
+    border-color: #ccc;
+    background: #dee1e2;
+}
+.input__field:focus{
+    border-color: #cac9c9;
+    background: #dee1e2;
+    opacity: 0.90;
+    z-index: -1;
+}
+.input__select__container{
+    width:520px;
+    font-size: 17px;
+    border-radius: 20px;
+    height: auto;
+    background: #dee1e2;
+}
+.select__items{
+    height: 35px;
+}
+.input__content__container__deployed{
+    width:520px;
+    height: auto;
+    background: #dee1e2;
+    border-radius: 20px;
+    min-height: 40px;
+    padding-bottom: 15px;
+}
+.select__items__content{
+    width: 100%;
+    font-family: 'Istok Web';
+    font-size: 17px;
+    height: 35px;
+    border-color: #cac9c9;
+    margin: 0 0 0 25px;
+}
+.select__items:hover{
+    height: 35px;
+    background-color:#d8d8d8;
+}

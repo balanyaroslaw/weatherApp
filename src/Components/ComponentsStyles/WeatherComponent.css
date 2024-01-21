@@ -1,0 +1,276 @@
+.weather__container{
+    min-width: 1200px;
+    max-width: 1600px;
+    margin: 0px 0px 45px 0px;
+    height: 630px;
+    display: flex;
+}
+.weather__data__container{
+    width: 1200px;
+    height: 630px;
+    background-color: #57A7C9;
+    border-color: #0000;
+    margin: 20px 0px 45px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__container{
+    width: 1200px;
+    height: 116px;
+    background-color: #568BA1;
+    display: flex;
+    flex-direction: row;
+}
+.header__content{
+    width: 718px;
+    height: 117px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__city{
+    width: 451px;
+    height: 83px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.city{
+    font-size: 40px;
+    font-family: 'Istok Web';
+    color: white;
+}
+.header__day{
+    width: 350px;
+    height: 80px;
+    display: flex;
+    margin: 50px 0px 50px 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.day__today{
+    width: 130px;
+    height: 32px;
+}
+.today{
+    color: #FFF;
+    font-family: Istok Web;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.day__date{
+    width: 184px;
+    height: 32px;
+    margin-top: 10px;
+}
+.date{
+    color: #FFF;
+    font-family: Istok Web;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.header__menu{
+    width: 400px;
+    height: 32px;
+    text-align: right;
+    align-items: end;
+    margin: 5px 0px 0px 70px;
+}
+.header__time{
+    width: 71px;
+    height: 47;
+    text-align: right;
+    align-items: end;
+    margin: 5px 0px 0px 250px;
+    display: flex;
+}
+.time{
+    color: #FFF;
+    font-family: Istok Web;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.menu__forecast{
+    width: 450px;
+    height: 50px;
+    display: flex;
+    margin-left: 10px;
+}
+.forecast{
+    color: #FFF;
+    font-family: Jura;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin: 5px 0px 0px 3px; 
+}
+.menu__bar{
+    margin-bottom: 5px;
+}
+.menu__icon{
+    margin: 5px 0px 0px 30px;
+}
+.forecast__icon{
+    width: 45px;
+    height: 37.368px;
+    margin-top: 8px;
+}
+.current_weather__container{
+    width: 1199px;
+    height: 175px;
+    display: flex;
+    margin-top: 20px;
+}
+.current__temp{
+    width: 226px;
+    height: 140px;
+    margin: 15px 0px 0px 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.current__valid__temp{
+    width: 173px;
+    height: 94px;  
+}
+.valid__temp{
+    color: #FFF;
+    font-family: Istok Web;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.current__feel__temp{
+    width: 226px;
+    height: 50px;
+}
+.feel__temp{
+    color: #FFF;
+    font-family: Istok Web;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.max__icon{
+    transform: rotate(-0.25turn);
+}
+.min__icon{
+    transform: rotate(90deg);
+}
+.day__temp{
+    width: 500px;
+    height: 70px;
+    display: flex;
+    margin: 80px 0px 0px 70px;
+}
+.max__temp{
+    width: 250px;
+    height: 70px;
+}
+.min__temp{
+    width: 250px;
+    height: 70px;
+}
+.max{
+    color: #FFF;
+    font-family: Istok Web;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.min{
+    color: #FFF;
+    font-family: Istok Web;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.weather__state{
+    width: 180px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 10px 0px 0px 40px; 
+}
+.weather__description{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+}
+.description{
+    color: #FFF;
+    font-family: Istok Web;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.forecast__container{
+    width: 1200px;
+    margin-top: 0px;
+    height: 300px;
+}
+.state__icon{
+    width: 100px;
+    height: 95px;
+}
+.forecast__condition{
+    width: 1210px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.condition__img{
+    max-width: 50px;
+    min-height: 30px;
+    size: auto;
+}
+.menu__container{
+    max-width: 200px;
+    margin: 20px 0px 0px 0px;
+    height: 627px;
+    display: flex;
+    border: solid 2px;
+    border-color: #000;
+}
+.loader {
+    width: 80px;
+    height: 80px;
+    margin: 110px 0px 0px 120px;
+    border: 5px solid #57A7C9;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 

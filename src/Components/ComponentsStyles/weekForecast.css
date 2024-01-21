@@ -1,0 +1,106 @@
+.weekforecast__menu{
+    width: 300px;
+    min-height: 52px;
+    display: flex;
+    float:right;
+    margin: 20px 40px 20px 0px ;
+    padding-bottom: 10px;
+}
+.forecast__icon{
+    width: 45px;
+    height: 37.368px;
+}
+.currentforecast__button{
+    color: #FFF;
+    font-family: Jura;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
+}
+.weekforecast__container{
+    width: 1200px;
+    min-height: 650px;
+    background-color: #292C2D;
+    border-radius: 15px;
+    border-color: #0000;
+    margin: 20px 0px 45px 150px;
+    padding-bottom: 3px;
+}
+.nextday_forecast__container{
+    width: 1000px;
+    height: 91px;
+    display: flex;
+    margin-left: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.forecast__day__date{
+    width: 240px;
+    height: 45px;
+}
+.forecast__date{
+    color: #FFF;
+    font-family: 'Istok Web';
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.forecast__weather__description{
+    width: 290px;
+    height: 35px;
+}
+.forecast__description{
+    color: rgba(167, 167, 167, 0.93);
+    font-family: 'Istok Web';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.forecast__weather__state{
+    max-width: 85px;
+    min-height: 85px;
+}
+.forecast__weather_state__container{
+    width: 270px;
+    height: 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.forecast__day__state{
+    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.forecast__max{
+    color: #FFF;
+    font-family: 'Istok Web';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+.forecast__max__temp{
+    width: 33px;
+    height: 35px;
+}
+.forecast__min__temp{
+    width: 33px;
+    height: 35px;
+}
+.forecast__min{
+    color: rgba(175, 175, 175, 0.96);
+    font-family: 'Istok Web';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.forecast__weather_state__container{
+    display: flex;
+}
